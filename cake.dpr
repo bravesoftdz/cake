@@ -7,12 +7,12 @@ program cake;
 uses
   System.SysUtils,
   System.JSON,
-  Horse in './horse/Horse.pas',
-  Horse.Constants in './horse/Horse.Constants.pas',
-  Horse.WebModule in './horse/Horse.WebModule.pas',
-  Horse.HTTP in './horse/Horse.HTTP.pas',
-  Horse.Router in './horse/Horse.Router.pas',
-  Horse.CORS in './horse/Horse.CORS.pas',
+  Horse in './modules/horse/src/Horse.pas',
+  Horse.Constants in './modules/horse/src/Horse.Constants.pas',
+  Horse.WebModule in './modules/horse/src/Horse.WebModule.pas',
+  Horse.HTTP in './modules/horse/src/Horse.HTTP.pas',
+  Horse.Router in './modules/horse/src/Horse.Router.pas',
+  Horse.CORS in './modules/horse-cors/src/Horse.CORS.pas',
   TwilioLib,
   CakeConfig;
 

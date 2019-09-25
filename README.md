@@ -5,6 +5,10 @@ Backend para envio de WhatsApp e SMS pelo Twilio
 Requisitos 
 --------------
 
+Instalação:
+ - Para instalação do  webframework Horse preferencialmente usar o [boss](https://github.com/HashLoad/boss) (Dependency Manager for Delphi).
+ - De forma fácil e simplificada para gerenciador a instalação e dependências de pacotes: `boss install github.com/leogregianin/cake`
+
 Backend:
  - Usar qualquer uma das versões abaixo:
    * Delphi 10.0 (Seattle)
